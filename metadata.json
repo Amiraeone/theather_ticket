@@ -1,0 +1,7 @@
+{
+  "name": "تیکت تئاتر | سامانه جامع فروش بلیت تئاتر",
+  "description": "سامانه جامع و پیشرفته رزرواسیون و فروش بلیت تئاتر، مدیریت سالن، انتخاب صندلی و گیشه",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

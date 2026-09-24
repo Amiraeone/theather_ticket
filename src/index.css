@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-slate-850: #162032;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  input, textarea, select {
+    color: inherit;
+  }
+  select option {
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+  html:not(.dark) select option {
+    background-color: #ffffff;
+    color: #0f172a;
+  }
+}
